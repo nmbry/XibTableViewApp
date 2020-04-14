@@ -3,7 +3,7 @@
 
 1. `command+N`->`User Interface`->`View`で.xibを作成する
 2. `command+N`->`Coaoa Touch Class`->`UIView`で.xibに対応する.swiftを作成する
-3. **`File's Owner`->`Show the Identity inspector`から2.で作成した.swiftを指定する**
+3. **`File's Owner`->`Show the Identity inspector`->`Custom Class`から2.で作成した.swiftを指定する**
 4. `Table View`を配置する
 ~~~swift
 class TestTable: UIView {
@@ -28,7 +28,7 @@ class TestTable: UIView {
 ~~~
 5. `command+N`->`User Interface`->`Empty`を作成する
 6. `command+N`->`Cocoa Touch Class`->`UITableViewCell`で.xibに対応する.swiftを作成する
-7. **UITableViewをクリックして`Custom Class`を2.で作成した.swiftを指定する**
+7. **`UITableView`->`Show the Identity inspector`->`Custom Class`を2.で作成した.swiftを指定する**
 8. `Table View Cell`を配置する
 ~~~swift
 class TestTableCell: UITableViewCell {
