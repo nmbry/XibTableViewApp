@@ -1,0 +1,6 @@
+framework module Pods_XibTableViewApp {
+  umbrella header "Pods-XibTableViewApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
